@@ -1,0 +1,235 @@
+.jumbotron{
+    background-image: url("https://unsplash.com/search/music?photo=HpSmY3fPEMo");
+}
+
+.black-btn{
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    width: 290px;
+    height: 30px;
+}
+
+
+.active{
+    color: green;
+}
+.greenText{
+    color:green;
+}
+header{
+    height: 51px;
+}
+/*----------------------------------------------
+---------------------SIDEBAR---------------------
+-----------------------------------------------*/
+.sidebar-profile{
+    height: 100px;
+    width: 100%;
+    padding: 15px 0px;
+}
+.user-img{
+    width: 80px;
+    height: 80px;
+    border-radius: 45px;
+    background-color: green;
+    margin: 0px auto;
+}
+.sidebar {
+    height: 415px;
+    float: left;
+    background-color: black;
+    width: 25%;
+}
+.sidebar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: black;
+}
+.sidebar li {
+    border-bottom: 1px solid green;
+}
+.sidebar li a {
+    display: block;
+    color: white;
+    padding: 10px 16px;
+    text-decoration: none;
+}
+.sidebar .active{
+    background-color: green;
+    width: 5px;
+    height: 40px;
+    float: left;
+}
+.sidebar li:last-child {
+    border-bottom: none;
+}
+.sidebar a:hover{
+    border-left: solid 5px green;
+}
+
+/*---------------------------------------------------
+-----------------------TEXT--------------------------
+---------------------------------------------------*/
+.text-primary{
+    color: green;
+}
+.sidebar h2{
+    border-bottom: 1px solid green;
+}
+main{
+    margin-top: 25px;
+}
+
+body{
+    background-color: #1b6d85;
+}
+/*-------------------------------------------------------
+---------------------
+ */
+.user-profile-info{
+    background-color: black;
+    margin-left:10px;
+    color: #fff;
+}
+.info{
+    margin-bottom: 15px;
+}
+.info p{
+    margin: 0px;
+}
+footer{
+    background-color: black;
+    position: fixed;
+    height: 35px;
+    bottom: 0;
+    width: 100%;
+}
+/*---------------------------------------------------------------
+---------------------------REGISTER------------------------------
+----------------------------------------------------------------- */
+.main{
+    margin-top: 70px;
+}
+
+h1.title {
+    font-size: 50px;
+    font-family: 'Passion One', cursive;
+    font-weight: 400;
+}
+
+hr{
+    width: 10%;
+    color: #fff;
+}
+
+.form-group{
+    margin-bottom: 15px;
+}
+
+label{
+    margin-bottom: 15px;
+}
+
+input,
+input::-webkit-input-placeholder {
+    font-size: 11px;
+    padding-top: 3px;
+}
+
+.main-login{
+    background-color: #fff;
+    /* shadows and rounded borders */
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+
+}
+
+.main-center{
+    margin-top: 30px;
+    margin: 0 auto;
+    max-width: 330px;
+    padding: 40px 40px;
+
+}
+
+.login-button{
+    margin-top: 5px;
+}
+
+.login-register{
+    font-size: 11px;
+    text-align: center;
+}
+/*-------------------------------------------------------
+-------------------------LOGIN---------------------------
+-------------------------------------------------------*/
+#login form {
+    border: 3px solid #f1f1f1;
+}
+
+#login input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+#login button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+#login button:hover {
+    opacity: 0.8;
+}
+
+#login .cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+#login .imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+#login img.avatar {
+    width: 40%;
+    border-radius: 50%;
+}
+
+#login .container {
+    padding: 16px;
+}
+
+#login span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    #login span.psw {
+        display: block;
+        float: none;
+    }
+    #login .cancelbtn {
+        width: 100%;
+    }
+}

@@ -13,7 +13,7 @@ class Controller {
 	}
 
 	public function index() {
-		require $this->baseDir.'/views/index.php';
+		require $this->baseDir.'/views/index2.php';
 	}
 
 	/**
@@ -30,7 +30,7 @@ class Controller {
 		$this->baseDir = $baseDir;
 	}
 
-	public function createRecipe($recipeModel, $data) {
-		return $recipeModel->create($data);
-	}
+    public function createAlbum($albumModel, $data) {
+        return $albumModel->create($data);
+    }
 }
